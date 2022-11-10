@@ -8,12 +8,16 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: author
-  label: author
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
 - type: list
   name: categories
   label: categories
 - type: file
   name: image
   label: image
+pages:
+- _posts/2022-11-10-the-basics-of-intermittent-fasting-and-how-to-achieve-your-weight-loss-goals.md
